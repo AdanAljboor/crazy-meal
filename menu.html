@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crazy Meal - Menu</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Crazy Meal</h1>
+      <nav>
+        <a href="index.html">Orders</a>
+        <a href="menu.html" class="active">Menu</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="menu-section">
+
+      <div class="meal-card">
+        <img src="images/burger.jpg" alt="Burger" />
+        <h3>Beef Burger</h3>
+        <p>$10</p>
+      </div>
+
+      <div class="meal-card">
+        <img src="images/chicken.jpg" alt="Grilled Chicken" />
+        <h3>Grilled Chicken</h3>
+        <p>$12</p>
+      </div>
+
+      <div class="meal-card">
+        <img src="images/fries.jpg" alt="Fries" />
+        <h3>French Fries</h3>
+        <p>$4</p>
+      </div>
+
+      <div class="meal-card">
+        <img src="images/pasta.jpg" alt="Pasta" />
+        <h3>Italian Pasta</h3>
+        <p>$9</p>
+      </div>
+
+      <div class="meal-card">
+        <img src="images/pizza.jpg" alt="Pizza" />
+        <h3>Cheese Pizza</h3>
+        <p>$11</p>
+      </div>
+
+      <div class="meal-card">
+        <img src="images/salad.jpg" alt="Salad" />
+        <h3>Fresh Salad</h3>
+        <p>$6</p>
+      </div>
+
+      <div class="meal-card">
+        <img src="images/steak.jpg" alt="Steak" />
+        <h3>Grilled Steak</h3>
+        <p>$15</p>
+      </div>
+
+      <div class="meal-card">
+        <img src="images/sushi.jpg" alt="Sushi" />
+        <h3>Sushi Platter</h3>
+        <p>$14</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Adan Aljboor - © <span id="year"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
